@@ -65,6 +65,23 @@ The description covers shape and parts only. Colors, motif, material, light, and
 
 ---
 
+## Reference image map
+
+Every registered icon has a front image in `references/{version}/{File}_Front.png`. Attach the matching file whenever the object appears in a request, alone or inside a combination.
+
+| Version | Object → File |
+|---|---|
+| common | 쿠폰 → `Coupon_Pink` (teal: `Coupon_Teal`), 할인티켓 → `Discount_Ticket`, 가격표 → `Price_Tags`, 선물상자 → `Gift_Box`, 장바구니 → `Shopping_Basket`, 쇼핑카트 → `Shopping_Cart`, 포인트코인 → `Point_Coin`, 하트코인 → `Heart_Coin_Silver` / `Heart_Coin_Pink`, 택배상자 → `Parcel_Box`, 지갑 → `Wallet`, 말풍선 → `Speech_Bubble`, 종 → `Bell`, 자명종 → `Alarm_Clock`, 배송트럭 → `Delivery_Truck`, 달력 → `Calendar`, 발바닥 → `Paw` |
+| cat | 사료그릇 → `Food_Bowl`, 사료캔 → `Food_Can_1` / `Food_Can_2`, 사료봉투 → `Food_Pouch`, 간식통 → `Food_Jar_1` / `Food_Jar_2`, 자동급식기 → `Auto_Feeder`, 급수기 → `Water_Fountain`, 이동장 → `Carrier`, 빗 → `Slicker_Brush`, 분무기 → `Spray_Bottle`, 낚싯대 → `Wand_Toy`, 화장실 → `Litter_Box`, 캣타워 → `Cat_Tower` |
+| dog | 사료그릇 → `Food_Bowl`, 사료캔 → `Food_Can`, 사료봉투 → `Food_Pouch`, 간식통 → `Treat_Jar`, 간식볼 → `Treat_Ball`, 리드줄 → `Leash`, 방석 → `Bed`, 양치세트 → `Toothbrush_Set` |
+| characters | 몽실이 → `Mongsil`, 방실이 → `Bangsil` |
+
+Note: `Coupon_Pink` and `Coupon_Teal` are sheets of four coupon poses; use them for the coupon's shape and color only and still draw a single coupon.
+
+A version that has no file for an object (e.g. a dog litter box) uses the other version's file for **shape only**, with this version's colors and motif.
+
+---
+
 ## Adding a new object
 
 When a new icon is finalised, add one row to the matching table:

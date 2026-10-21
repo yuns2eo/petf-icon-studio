@@ -23,15 +23,10 @@ references/
   characters/                  캐릭터 레퍼런스 (항상 첨부)
     Mongsil_Front.png / Mongsil_4View.png
     Bangsil_Front.png / Bangsil_4View.png
-  cat/                         고양이 버전 레퍼런스
-    Food_Pouch_Front.png / Food_Pouch_4View.png
-    Auto_Feeder_Front.png / Auto_Feeder_4View.png
-  dog/                         강아지 버전 레퍼런스
-    Food_Pouch_Front.png / Food_Pouch_4View.png
-    Food_Can_Front.png / Food_Can_4View.png
-  common/                      공통 버전 레퍼런스
-    Bell_Front.png / Bell_4View.png
-    Calendar_Front.png / Calendar_4View.png
+  cat/                         고양이 아이콘 14종 정면컷 (+ 일부 4뷰)
+  dog/                         강아지 아이콘 8종 정면컷 (+ 일부 4뷰)
+  common/                      공통 아이콘 18종 정면컷 (+ 일부 4뷰)
+                               → 사물별 파일명은 library/JELLY_Object_Library.md의 Reference image map
 ```
 
 ---
@@ -84,7 +79,7 @@ references/
 
 ### 5. 레퍼런스 이미지 첨부
 
-같은 버전 폴더에서 형태가 가장 비슷한 이미지를 첨부합니다.
+등록된 사물이면 `library/JELLY_Object_Library.md`의 **Reference image map**에서 그 사물의 정면컷을 첨부합니다. 새 사물이면 같은 버전 폴더에서 형태가 가장 비슷한 이미지를 첨부합니다.
 
 | 생성 단계 | 첨부 |
 |---|---|
