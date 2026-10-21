@@ -14,6 +14,19 @@ When reference images are attached, they override any wording that appears less 
 
 ---
 
+## Reference attachment (always Front + 4View)
+
+Every generation or edit attaches references as **sets**: for each item that appears, attach both `{File}_Front.png` and `{File}_4View.png` (file names from the Reference image map in `library/JELLY_Object_Library.md`). Attaching only the front image is not allowed.
+
+- items without a 4-view (price tags, shopping basket): attach the front only, and tell the user that the 4-view is missing
+- coupon pink & teal: the front image is itself a four-pose sheet, so that one image stands in for the set
+- characters (몽실이, 방실이): always Front + 4View
+- when editing a previous result, attach the Front + 4View of every item in it again, every time; never edit from the previous result image alone
+- when an item is placed at a different angle than its front image, use the closest view in its 4-view as the guide, and state in the prompt that its shape, proportions, parts, and text direction must not change
+- start every prompt by numbering the images and their roles, e.g. `Image 1 = coupon front, Image 2 = coupon 4-view turnaround, Image 3 = 몽실이 front, Image 4 = 몽실이 4-view turnaround`
+
+---
+
 ## What is fixed: the family style
 
 ### Canvas and composition
@@ -105,7 +118,7 @@ A request may combine registered icons into one image, e.g. "a basket holding a 
 - items are scaled down to fit naturally inside or peeking out of the container, overlapping slightly, with the most important item in front
 - the whole group is treated as one object for composition: centered, 70–75% of the frame, same camera, light, and background rules
 - the image's glow color follows the container's version
-- reference limit for combinations: up to **4 images** — the container's front image plus one front image per item; character references are always included
+- reference limit for combinations: **Front + 4View (2 images) per item**, the container plus up to 3 items, so up to **8 images**; character references are always included
 
 Do not invent new items, change any item's design to match the others, or exceed 3 items.
 
@@ -177,7 +190,8 @@ For the 4-view sheet, start with `Use the attached front image as the exact desi
 Before generating, confirm:
 
 1. Which version applies, and which `versions/` file was loaded? Which background — BLACK (default) or WHITE (only if asked)?
-2. Which reference images from the same version are attached (2 at most, plus the front image for a 4-view)?
-3. Is the object described by shape and parts only, leaving color, material, light, and background to the lock blocks?
-4. Is any text on the object? If so, is it inside the text exception?
-5. For a 4-view: is the finished front image attached?
+2. Which reference images are attached, following **Reference attachment** (Front + 4View per item, up to 8 images, plus the finished front image for a 4-view)?
+3. Are the Front + 4View of every item attached? (Missing 4-views are reported to the user.)
+4. Is the object described by shape and parts only, leaving color, material, light, and background to the lock blocks?
+5. Is any text on the object? If so, is it inside the text exception?
+6. For a 4-view: is the finished front image attached?

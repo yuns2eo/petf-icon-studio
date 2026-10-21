@@ -6,7 +6,7 @@ Use this file whenever a request names 몽실이 (Mongsil) or 방실이 (Bangsil
 
 Read `style/JELLY_Style_Lock.md` first. The style lock still controls material, lighting, background, and composition. This file fixes the two characters' identity; **their colors are fixed and never follow the cat / dog / common version colors.**
 
-The reference images are the visual source of truth and must always be attached:
+The reference images are the visual source of truth. Always attach **both Front + 4View** of each character that appears, including when editing a previous result (see **Reference attachment** in the style lock):
 
 - `references/characters/Mongsil_Front.png` / `Mongsil_4View.png`
 - `references/characters/Bangsil_Front.png` / `Bangsil_4View.png`
