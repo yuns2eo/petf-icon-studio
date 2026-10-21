@@ -9,6 +9,8 @@
 ## 저장소 구조
 
 ```
+CLAUDE.md                      클로드 코드가 자동으로 읽는 시작 지침
+REGISTER.md                    새 아이콘 등록 자동화 (엘리먼트 & Figma & 깃허브)
 style/
   JELLY_Style_Lock.md          범용 스타일 락 (항상 적용)
 versions/
@@ -124,7 +126,7 @@ references/
 
 ## 새 아이콘 추가 방법
 
-새 아이콘이 최종 확정되면:
+새 아이콘이 최종 확정되면 `REGISTER.md`를 따릅니다. Higgsfield 엘리먼트 등록, Figma 정리, 깃허브 반영까지 한 번에 진행됩니다. 깃허브 부분만 요약하면:
 
 1. `library/JELLY_Object_Library.md`의 해당 버전 표에 한 줄 추가 (사물명, 별칭, 기호, 영어 형태 묘사)
 2. 대표성이 있으면 `references/{버전}/`에 `{Object}_Front.png`, `{Object}_4View.png` 추가
