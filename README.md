@@ -15,9 +15,14 @@ versions/
   JELLY_Cat_Version.md         고양이 버전 (핑크 & 발바닥)
   JELLY_Dog_Version.md         강아지 버전 (틸 & 뼈다귀)
   JELLY_Common_Version.md      공통 버전 (핑크 & 틸 포인트, 동물 모티프 없음)
+characters/
+  JELLY_Characters.md          캐릭터 몽실이 & 방실이 (고정 컬러, 얼굴 락)
 library/
   JELLY_Object_Library.md      이미 만든 사물의 형태 묘사 사전
 references/
+  characters/                  캐릭터 레퍼런스 (항상 첨부)
+    Mongsil_Front.png / Mongsil_4View.png
+    Bangsil_Front.png / Bangsil_4View.png
   cat/                         고양이 버전 레퍼런스
     Food_Pouch_Front.png / Food_Pouch_4View.png
     Auto_Feeder_Front.png / Auto_Feeder_4View.png
@@ -50,6 +55,17 @@ references/
 | 버전 언급 없음 | `library/JELLY_Object_Library.md`의 고정 버전을 따름 |
 
 펫용품인데 종 구분이 없고 라이브러리에도 고정 버전이 없으면, 버전을 정하지 말고 사용자에게 강아지인지 고양이인지 물어보세요.
+
+### 2-1. 캐릭터 & 조합 판단
+
+- 요청에 **몽실이** 또는 **방실이**가 있으면 `characters/JELLY_Characters.md`를 읽고 `references/characters/`의 해당 이미지를 반드시 첨부합니다.
+  - 몽실이 = 크림색 + 오른쪽 귀 & 이마에 캐러멜 브라운 무늬 (고양이 그룹)
+  - 방실이 = 무늬 없는 화이트 (강아지 그룹)
+  - 캐릭터는 버전 컬러(핑크 & 틸)를 따르지 않습니다.
+- "장바구니 안에 쿠폰, 몽실이, 선물상자"처럼 여러 아이콘을 한 장에 담는 요청은 `style/JELLY_Style_Lock.md`의 **Combination rule**을 따릅니다.
+  - 담는 그릇(장바구니, 카트, 상자, 그릇 등) 1개 + 아이템 최대 3개
+  - 각 아이템은 등록된 디자인 그대로 (버전 컬러는 그 아이템 기준)
+  - 레퍼런스는 최대 4장: 그릇 1장 + 아이템마다 1장
 
 ### 3. 배경 판단
 
@@ -92,9 +108,10 @@ references/
 
 1. `style/JELLY_Style_Lock.md`
 2. 첨부된 `references/` 이미지
-3. `versions/` 버전 파일
-4. `library/` 사물 묘사
-5. 사용자의 요청 (사물, 세부 형태)
+3. `characters/JELLY_Characters.md` (캐릭터가 있을 때)
+4. `versions/` 버전 파일
+5. `library/` 사물 묘사
+6. 사용자의 요청 (사물, 세부 형태)
 
 요청이 스타일과 충돌하면 (예: "매트한 느낌으로", "카페 배경 넣어서", "그라데이션 배경으로") **스타일을 지키고**, 무엇을 조정했는지 사용자에게 알립니다.
 
