@@ -23,9 +23,9 @@ references/
   characters/                  캐릭터 레퍼런스 (항상 첨부)
     Mongsil_Front.png / Mongsil_4View.png
     Bangsil_Front.png / Bangsil_4View.png
-  cat/                         고양이 아이콘 14종 정면컷 (+ 일부 4뷰)
-  dog/                         강아지 아이콘 8종 정면컷 (+ 일부 4뷰)
-  common/                      공통 아이콘 18종 정면컷 (+ 일부 4뷰)
+  cat/                         고양이 아이콘 14종 정면컷 & 4뷰
+  dog/                         강아지 아이콘 8종 정면컷 & 4뷰
+  common/                      공통 아이콘 18종 정면컷 & 4뷰 (가격표 & 장바구니 & 쿠폰 시트는 4뷰 없음)
                                → 사물별 파일명은 library/JELLY_Object_Library.md의 Reference image map
 ```
 
